@@ -1,0 +1,637 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Bricolage Grotesque";
+	font-size: 14px;
+	/* change based on typeface */
+	line-height: 1.5;
+	/* change based on typeface */
+	scroll-behavior: smooth;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+body {
+	min-width: 400px;
+}
+
+
+/* copied from the website */
+
+
+p {
+	font-family: Manrope, sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+.containimage {
+	object-fit: contain;
+}
+
+.hiimautumn {
+	color: #720026;
+	font-family: Bricolage Grotesque;
+	font-size: 4.6111111rem;
+	font-weight: 800;
+	text-align: center;
+	line-height: 65px;
+	padding-top: 0rem;
+}
+
+h1 {
+	color: #720026;
+	font-family: Bricolage Grotesque;
+	font-size: 4.6111111rem;
+	font-weight: 800;
+	text-align: center;
+	line-height: 65px;
+	padding-top: 4rem;
+}
+
+h2 {
+	font-family: Bricolage Grotesque;
+	font-size: 2.7777778rem;
+	font-weight: 800;
+	color: #CE4158;
+	margin: 4rem 0 4rem 0;
+	text-align: center;
+}
+
+h3 {
+	font-family: Bricolage Grotesque;
+	font-size: 1.6666667rem;
+
+
+}
+
+h4 {
+	font-family: Bricolage Grotesque;
+	font-size: 1rem;
+
+
+}
+
+h5 {
+	font-family: Bricolage Grotesque;
+	font-size: 1rem;
+
+
+}
+
+
+.header {
+	background-color: black;
+	color: white;
+
+}
+
+.header a {
+	color: white;
+	text-decoration: none;
+	font-weight: 800;
+	font-size: 1.6666667rem;
+
+}
+
+.logo {
+	width: 100%;
+	max-width: 266px;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin: 0 auto;
+	display: block;
+}
+
+.navrow {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+
+li {
+	list-style-type: none;
+	display: inline;
+	margin-left: 1rem;
+	margin-right: 1rem;
+
+}
+
+ul {
+	margin-bottom: 2rem;
+}
+
+.hero {
+	background-image: url("../img/coralpattern.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 247.33px;
+	color: white;
+
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.hero p {
+	text-align: center;
+}
+
+.hero h1 {
+	color: white;
+}
+
+.button {
+
+	text-decoration: none;
+	color: #4F000B;
+	background-color: #FF9B54;
+	border-radius: 56px;
+	width: 24rem;
+	height: 5rem;	
+	border-style: none;
+	font-weight: 500;
+	font-family: Bricolage Grotesque;
+	font-size: 1.6666667rem;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	padding: 1rem 0 1rem 0;
+
+}
+
+button a {
+	color: #4F000B;
+	text-decoration: none;
+}
+
+.endbutton {
+	margin-bottom: 2rem;
+}
+
+.thumbnail {
+	width: 330px;
+	margin-bottom: 1rem;
+}
+
+.row {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+.footer {
+	background-color: #E8E8E8;
+	padding-top: 2rem;
+	color: black;
+
+
+
+}
+
+.footer a {
+	color: black;
+	text-decoration: none;
+	font-weight: 800;
+	font-size: 1.6666667rem;
+
+
+}
+
+
+/* make sure bricolage grotesque has an alternatve serif or sans serif */
+
+/* CONTACT */
+
+.button3 {
+
+	color: white;
+	background-color: #720026;
+	border-radius: 56px;
+	width: 305.81px;
+	height: 61.75px;
+
+	border-style: none;
+	font-weight: 500;
+	font-family: Bricolage Grotesque;
+	font-size: 1.6666667rem;
+	margin: 4rem auto 0 auto;
+	display: block;
+
+}
+
+.contactheader {
+	text-align: center;
+	margin-top: 0px;
+	
+	padding-top: 4rem;
+}
+
+.secondbgcolor {
+	background-color: #FF7F51;
+}
+
+.secondheadercolor {
+	color: #720026;
+}
+
+.havequestions {
+	text-align: center;
+	width: 330px;
+	margin: 0 auto 2rem auto;
+
+}
+
+fieldset {
+	border: none;
+}
+
+form {
+	width: 304px;
+	margin: 0 auto;
+
+}
+
+.contactinfo {
+	width: 330px;
+	margin: 0 auto;
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+
+
+}
+
+
+
+
+/* BIO */
+.thirdbgcolor {
+	background-color: #CE4158;
+	color: white;
+}
+
+.button2 {
+	color: white;
+	background-color: #720026;
+	border-radius: 56px;
+	width: 23rem;
+	height: 5rem;
+
+	border-style: none;
+	font-weight: 500;
+	font-family: Bricolage Grotesque;
+	font-size: 1.6666667rem;
+	margin: 4rem auto 4rem auto;
+	display: block;
+}
+
+
+.autumn {
+	width: 341px;
+
+	justify-self: center;
+
+}
+
+.twocolumngrid {
+	display: grid;
+	grid-template-columns: 44% 56%;
+	grid-column-gap: 44px;
+	align-self: center;
+	width: 859px;
+	margin: 0 auto;
+	padding: 4rem 0 4rem 0;
+}
+
+.gridcolumn {
+
+	justify-self: center;
+}
+
+
+.biodescription {
+	width: 432px;
+	padding-top: 150px;
+
+}
+
+.resume a {
+	text-decoration: none;
+	color: white;
+
+}
+
+.messageform1 {
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+.inputcolumn {
+
+	display: flex;
+	flex-direction: column;
+	margin-right: 18px;
+}
+
+.messageform2 label {
+	display: flex;
+	flex-direction: column;
+	padding-top: 1rem;
+}
+
+/* DESIGN */
+.divider {
+
+	background-color: #720026;
+	height: 9px;
+	margin: 0rem 4rem 0rem 4rem;
+}
+
+.button2 a {
+	text-decoration: none;
+	color: white;
+
+}
+
+.coralicons {
+	margin-top: 2rem;
+}
+
+
+a:hover {
+	opacity: 0.5;
+
+}
+
+.fullwidth {
+
+	padding: 0 4rem 4rem 4rem;
+	width: 100%;
+	}
+
+/* OTHER ART */
+.eightandfourgrid {
+	display: grid;
+	grid-template-columns: 64% 31%;
+	grid-column-gap: 36px;
+	align-self: center;
+	align-items: center;
+
+	margin: 4rem 0 4rem 0;
+
+}
+
+.fixed {
+	margin-left: 4rem;
+	margin-right: 4rem;
+}
+
+.fourfivethreegrid {
+
+	display: grid;
+	grid-template-columns: 30% 35% 25%;
+	grid-column-gap: 36px;
+	align-self: center;
+	align-items: center;
+
+	margin: 4rem 0 4rem 0;
+
+}
+
+.fivesevengrid {
+
+	display: grid;
+	grid-template-columns: 40% 58%;
+	grid-column-gap: 36px;
+	align-self: center;
+	align-items: center;
+
+	margin: 4rem 0 4rem 0;
+}
+
+.sevenfivegrid {
+	display: grid;
+	grid-template-columns: 55% 40%;
+	grid-column-gap: 36px;
+	align-self: center;
+	align-items: center;
+	margin: 4rem 0 4rem 0;
+
+}
+
+.nest {
+	padding-bottom: 4rem;
+}
+
+.threeninegrid {
+
+	display: grid;
+	grid-template-columns: 25% 75%;
+	grid-column-gap: 36px;
+	align-self: center;
+	align-items: center;
+	margin: 4rem 0 4rem 0;
+}
+
+
+.fourfourfourgrid {
+
+	display: grid;
+	grid-template-columns: 31% 31% 30%;
+	grid-column-gap: 36px;
+	align-self: center;
+	align-items: center;
+	margin: 4rem 0 4rem 0;
+}
+
+.appletext {
+	margin-bottom: 45px;
+}
+
+
+.sixsixgrid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 36px;
+	align-self: center;
+	align-items: center;
+	margin: 4rem 0 4rem 0;
+}
+
+
+.arsenicadescription {
+	margin-bottom: 133px;
+
+}
+
+
+.borderoutline {
+	border: solid 1px black;
+}
+
+.delicatecover {
+	margin-top: 4rem;
+}
+
+.halfwidth {
+	width: 702px;
+}
+
+
+.threethreethreethreegrid {
+	display: grid;
+	grid-template-columns: 22% 22% 22% 22%;
+	grid-column-gap: 36px;
+	align-self: center;
+	align-items: center;
+	margin: 4rem 0 4rem 0;
+
+}
+
+.bevdescription {
+	margin-bottom: 76px;
+}
+
+.beveragecanheader {
+	margin-bottom: 2rem;
+}
+
+#canmockup {
+	padding-top: 4rem;
+}
+
+#trillionproject {
+	margin: 2rem 4rem 2rem 4rem;
+}
+
+/* ==== MEDIA QUERIES START HERE */
+
+/* iPads, Tablets – 481px — 768px */
+/* 968px design */
+@media only screen and (min-width: 875px) {
+
+
+	.navrow {
+		flex-direction: row;
+		justify-content: center;
+
+
+
+
+	}
+
+
+	.logo {
+		margin-right: 4rem;
+
+	}
+
+	ul {
+		padding-top: 2rem;
+	}
+
+	.row {
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+
+	}
+
+	h2 {
+		text-align: left;
+
+
+
+	}
+
+
+	.homeheader {
+		margin-left: 35px;
+	}
+
+	.content {
+		width: 768px;
+
+
+	}
+
+	.contentflex {
+		display: flex;
+		justify-content: center;
+
+
+	}
+
+	.thumbnail {
+
+		margin: 18px;
+
+
+	}
+
+	.column {
+		padding-bottom: 0px;
+	}
+
+	.footer {
+		padding-top: 0px;
+	}
+
+
+}
+
+
+
+/* Desktops, large screens – 1025px — 1200px */
+/* 1840px design */
+@media only screen and (min-width: 1525px) {
+
+	html {
+		font-size: 18px;
+
+	}
+
+	.row {
+		flex-wrap: nowrap;
+	}
+
+	.content {
+		width: 1476px;
+
+
+
+	}
+
+	.logo {
+
+		margin-right: 554px;
+
+	}
+
+
+
+	.hereisacollection {
+		padding-top: 21px;
+	}
+
+}
